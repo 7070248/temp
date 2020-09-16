@@ -1,14 +1,13 @@
 <template>
     <div class="intro">
 
-
         <transition name="fade">
           <div v-show="isClicked">
             <h1 >Daily <br>Report App {{JSON.stringify(isClicked)}}</h1>
             <button  @click="goToday">Gasdfasdo!</button>
             </div>
         </transition>
-        <button @click="goToday">Go!</button>
+        <button @click="goToday">Go!gogo</button>
 
 
         <transition-group name="fade-list">
